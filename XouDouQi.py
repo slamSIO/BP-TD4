@@ -157,7 +157,7 @@ if __name__ == '__main__' :
 	print( '\nQuestion 3.8 :' )
 	lstBilanTypes = getNbCasesParType()
 	for unType in lstBilanTypes :
-		print( 'Type : {0} ---> {1} cases'.format( uneCase[ 0 ] , uneCase[ 1 ] ) )
+		print( 'Type : {0} ---> {1} cases'.format( unType[ 0 ] , unType[ 1 ] ) )
 
 
 	fenetre.mainloop()
